@@ -1,1 +1,65 @@
-<h1>Hello World!</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Remi S — Software Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root{
+      --bg:#F5F5F5;        /* off-white */
+      --text:#1C1C1C;      /* deep charcoal */
+      --muted:#2E3A46;     /* slate gray */
+      --accent:#4DA8A8;    /* teal */
+      --burgundy:#7A1746;  /* subtle accent */
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font:16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text); background:var(--bg);}
+    header{padding:56px 20px; text-align:center; border-bottom:1px solid rgba(0,0,0,.06)}
+    h1{margin:0 0 10px; font-size:32px}
+    .tagline{color:var(--muted)}
+    .cta{display:inline-block; margin-top:18px; padding:10px 16px; border-radius:8px; background:var(--accent); color:white; text-decoration:none}
+    .cta:hover{filter:brightness(0.95)}
+    .pill{display:inline-block; padding:6px 10px; border:1px solid rgba(0,0,0,.1); border-radius:999px; margin:4px; background:white}
+    .pill.burgundy{border-color:var(--burgundy); color:var(--burgundy)}
+    main{max-width:900px; margin:40px auto; padding:0 20px}
+    section{margin:40px 0}
+    footer{padding:24px 20px; text-align:center; color:var(--muted); border-top:1px solid rgba(0,0,0,.06)}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Remi S</h1>
+    <div class="tagline">Full-stack .NET + Angular • Clean, thoughtful UI</div>
+    <a class="cta" href="Resume_RemiS.pdf" download>Download Resume</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tech</h2>
+      <div>
+        <span class="pill">.NET</span>
+        <span class="pill">C#</span>
+        <span class="pill">SQL</span>
+        <span class="pill">Angular</span>
+        <span class="pill burgundy">GraphQL</span>
+        <span class="pill">Azure</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p>Developer with 8+ years building reliable, maintainable products. I value simple, legible code and interfaces that get out of the user’s way.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p><a href="mailto:you@yourdomain.com">you@yourdomain.com</a> · <a href="https://www.linkedin.com/in/yourhandle">LinkedIn</a> · <a href="https://github.com/yourusername">GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>© <span id="y"></span> Remi S</footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
