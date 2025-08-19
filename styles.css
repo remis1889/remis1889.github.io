@@ -433,6 +433,17 @@ p.lead {
     color: var(--muted-color, #666);
 }
 
+.tech-icons img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.tech-icons .icon-item img:hover {
+    transform: scale(1.2);
+}
+
 /* =========
    Work cards
    ========= */
@@ -1086,3 +1097,4 @@ p.lead {
     color: var(--accent);
     font-weight: 600;
 }
+
