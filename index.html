@@ -6,8 +6,12 @@
     <title>Remi Sainillabdeen</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Allura&family=Source+Code+Pro:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Source+Code+Pro:wght@500&family=Send+Flowers&family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -25,7 +29,7 @@
           <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
-<!--             <li><a href="#work">Work</a></li> -->
+            <!-- <li><a href="#work">Work</a></li> -->
             <li><a href="#contact">Contact</a></li>
           </ul>
           <button
@@ -109,41 +113,56 @@
         </div>
 
         <div>
-          <div class="hero-graphic" aria-hidden="true"></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="container two-col">
-        <div>
-          <div class="about-graphic" aria-hidden="true"></div>
-        </div>
-        <div>
-          <h2>About Me</h2>
-          <p>
-            I'm a full-stack developer who leans hard into the frontend because
-            that's where users feel the product. I love turning messy business
-            rules into clean, shippable interfaces.
-          </p>
-          <p class="muted">
-            8+ years across ERP/finance and edtech. Angular/React on the front,
-            .NET APIs on the back, with performance and accessibility baked in.
-          </p>
-
-          <div class="tags">
-            <span class="tag">Angular</span>
-            <span class="tag">React</span>
-            <span class="tag">TypeScript</span>
-            <span class="tag">.NET</span>
-            <span class="tag">Postgres</span>
-            <span class="tag">Azure</span>
+          <div class="hero-graphic" aria-hidden="true">
+            <img src="hero_image.jpg" alt="" role="presentation" />
           </div>
         </div>
       </div>
     </section>
 
-<!--     <section id="work">
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p class="muted">
+          I'm a full-stack developer who leans hard into the frontend because
+          that's where users feel the product. I love turning messy business
+          rules into clean, shippable interfaces.
+        </p>
+        <p class="muted">
+          8+ years across ERP/finance and edtech. Angular/React on the front,
+          .NET APIs on the back, with performance and accessibility baked in.
+        </p>
+
+        <div class="tech-icons">
+          <div class="icon-item">
+            <i class="devicon-angularjs-plain colored" title="Angular"></i>
+            <span>Angular</span>
+          </div>
+          <div class="icon-item">
+            <i class="devicon-react-original colored" title="React"></i>
+            <span>React</span>
+          </div>
+          <div class="icon-item">
+            <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+            <span>TypeScript</span>
+          </div>
+          <div class="icon-item">
+            <i class="devicon-dotnetcore-plain colored" title=".NET"></i>
+            <span>.NET</span>
+          </div>
+          <div class="icon-item">
+            <i class="devicon-postgresql-plain colored" title="Postgres"></i>
+            <span>Postgres</span>
+          </div>
+          <div class="icon-item">
+            <i class="devicon-azure-plain colored" title="Azure"></i>
+            <span>Azure</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="work">
       <div class="container">
         <h2>Work</h2>
 
